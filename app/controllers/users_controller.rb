@@ -18,7 +18,12 @@ class UsersController < ApplicationController
   def update
     @user.update(user_params)
     render json: @user
-  endg
+  end
+
+  def destroy
+    @user.destroy
+    redirect_to action: 'index'
+  end
 
   private
 
