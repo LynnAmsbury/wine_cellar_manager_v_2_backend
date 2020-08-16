@@ -1,0 +1,2 @@
+class WineIndexListsController < ApplicationController
+end
