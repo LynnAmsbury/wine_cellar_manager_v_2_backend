@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class WineIndexListsControllerTest < ActionDispatch::IntegrationTest
+class WineIndexListItemTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end
