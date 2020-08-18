@@ -1,0 +1,2 @@
+class VarietyListItemsController < ApplicationController
+end
